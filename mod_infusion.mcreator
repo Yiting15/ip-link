@@ -1,0 +1,84 @@
+{
+  "mod_elements": [
+    {
+      "name": "ZombieFragment",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zombie_fragment"
+    },
+    {
+      "name": "ZombieSoulRightclicked",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": false,
+      "locked_code": false,
+      "registry_name": "zombie_soul_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SoulyZombie",
+      "type": "livingentity",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "souly_zombie"
+    },
+    {
+      "name": "Zombiesouls",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zombiesouls"
+    },
+    {
+      "name": "ZombieSoulCrafting",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zombie_soul_crafting"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.mod_infusion.zombie_fragment": "Zombie Fragment",
+      "entity.mod_infusion.souly_zombie": "Souly Zombie",
+      "item.mod_infusion.zombiesouls": "Zombiesouls",
+      "item.mod_infusion.souly_zombie_spawn_egg": "Souly Zombie Spawn Egg"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "mod_infusion",
+    "modName": "Mod Infusion",
+    "version": "1.0.0",
+    "author": "mac, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "modElementsPackage": "net.mcreator.modinfusion",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200234517
+}
